@@ -57,20 +57,21 @@ namespace Kalkulator2
             {
                 case '+':
                     return num1 + num2;
-                    break;
                 case '-':
                     return num1 - num2;
-                    break;
                 case '*':
                     return num1 * num2;
-                    break;
                 case '/':
                     return num1 * 1.0 / num2;
-                    break;
                 default:
                     return 0;
             }
-            
+        }
+
+
+        static void Division(double num1, double num2)
+        {
+            double res = num1 * 1.0 / num2;
         }
     }
 }
