@@ -19,7 +19,6 @@ namespace Kalkulator2
             string[] input;
             do
             {
-
                 input = inputExpression();
                 if (input.Length != 3)
                     break;
@@ -28,7 +27,9 @@ namespace Kalkulator2
                 char oper = Convert.ToChar(input[1]);
                 double num2 = Convert.ToDouble(input[2]);
 
-                Console.WriteLine("Vas unos: " + input[0] + input[1] + input[2]);
+                double result = CalculateResult(num1, oper, num2);
+                Console.WriteLine("Rezultat: " + result);
+
             } while (true);
         }
 
@@ -47,6 +48,29 @@ namespace Kalkulator2
                     return tokens;
                 Console.WriteLine("Pogresan unos! Pokusajte ponovo.\n");
             } while (true);
+        }
+
+
+        static double CalculateResult(double num1, char oper, double num2)
+        {
+            switch (oper)
+            {
+                case '+':
+                    return num1 + num2;
+                    break;
+                case '-':
+                    return num1 - num2;
+                    break;
+                case '*':
+                    return num1 * num2;
+                    break;
+                case '/':
+                    return num1 * 1.0 / num2;
+                    break;
+                default:
+                    return 0;
+            }
+            
         }
     }
 }
