@@ -57,16 +57,12 @@ namespace Kalkulator2
             {
                 case '+':
                     return num1 + num2;
-                    break;
                 case '-':
                     return num1 - num2;
-                    break;
                 case '*':
                     return num1 * num2;
-                    break;
                 case '/':
                     return num1 * 1.0 / num2;
-                    break;
                 default:
                     return 0;
             }
@@ -75,10 +71,7 @@ namespace Kalkulator2
 
         static void Division(double num1, double num2)
         {
-            double result = num1 * 1.0 / num2;
-            Console.WriteLine(result);
+            double res = num1 * 1.0 / num2;
         }
-
-
     }
 }
