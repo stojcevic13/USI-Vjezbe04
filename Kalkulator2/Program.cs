@@ -10,6 +10,9 @@ namespace Kalkulator2
     {
         static void Main(string[] args)
         {
+            Console.Write("Unesite izraz: ");
+            string input = Console.ReadLine();
+            Console.WriteLine("Vas unos: " + input);
         }
     }
 }

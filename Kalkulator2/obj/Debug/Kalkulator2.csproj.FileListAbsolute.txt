@@ -1,0 +1,7 @@
+C:\Users\acer\Desktop\USI-Vjezbe04\Kalkulator2\bin\Debug\Kalkulator2.exe.config
+C:\Users\acer\Desktop\USI-Vjezbe04\Kalkulator2\bin\Debug\Kalkulator2.exe
+C:\Users\acer\Desktop\USI-Vjezbe04\Kalkulator2\bin\Debug\Kalkulator2.pdb
+C:\Users\acer\Desktop\USI-Vjezbe04\Kalkulator2\obj\Debug\Kalkulator2.csproj.AssemblyReference.cache
+C:\Users\acer\Desktop\USI-Vjezbe04\Kalkulator2\obj\Debug\Kalkulator2.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\USI-Vjezbe04\Kalkulator2\obj\Debug\Kalkulator2.exe
+C:\Users\acer\Desktop\USI-Vjezbe04\Kalkulator2\obj\Debug\Kalkulator2.pdb
