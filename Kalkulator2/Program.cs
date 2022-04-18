@@ -28,7 +28,6 @@ namespace Kalkulator2
                 char oper = Convert.ToChar(input[1]);
                 double num2 = Convert.ToDouble(input[2]);
 
-
                 Console.WriteLine("Vas unos: " + input[0] + input[1] + input[2]);
             } while (true);
         }
