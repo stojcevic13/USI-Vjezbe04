@@ -20,8 +20,8 @@ namespace Kalkulator2
             do
             {
                 Console.Write("Unesite izraz: ");
-                input = Console.ReadLine();
-                if (input.Equals("exit"))
+                input = Console.ReadLine().ToLower();
+                if (input.Equals("exit") || input.Equals("kraj"))
                     break;
                 Console.WriteLine("Vas unos: " + input);
             } while (true);
